@@ -1,10 +1,14 @@
-%routhTable(polesArray) Function
+% routhTable(polesArray) Function
 %
 % Creates Routh Table and print Stability of the Function based on the Calculation of Routh Table
 %
-% polesArray: array for poles
+% Routh Table 제작 관련 연습을 위해 제작되었습니다. 결과에 오류가 있을 수 있습니다.
 %
 % Written By: YHC03
+
+% routhTable(polesArray) Function
+%
+% polesArray: array for poles
 function outputArray = routhTable(polesArray)
 
 	%evenLocale: 모든 행이 0인 Row의 위치
